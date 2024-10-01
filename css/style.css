@@ -34,37 +34,109 @@ logo img {
 }
 
 .topbutton {
+    display: inline-block;
+    text-align: center;
     font-size: small;
     border-radius: 5px;
-    display: inline-block;
+    margin: 10px auto;
+    margin-left: 15px;
 }
 
 .task {
     color: #ffffff;
-    background-size: ;
+    height: 20px;
+    width: 70px;
+    background-size: 20px 10px;
     background-color: cornflowerblue;
     border: 0;
 }
 
 .section {
-    color: #e6e6e6;
+    color: lightgrey;
+    height: 20px;
+    width: 75px;
     background-color: white;
-    border: 1px solid;
-    border-color: #e6e6e6;
+    border: 1px solid lightgrey;
 }
 
 
-.topbutton {
-    margin: 25px 25px;
-    vertical-align: center;
-}
 
-hr {
-    color: #e6e6e6;
-    margin-top: 15px;
+.divider {
+    border-color: lightgrey;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
 .main-list {
     list-style: none;
+    margin: 25px auto;
+    width: 80%;
 }
+
+.list-sett {
+    list-style: none;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.ulsett {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#verify {
+    display: inline-block;
+    font-size: smaller;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.check {
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    †
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+
+.category {
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    color: #ffffff;
+    font-size: small;
+    border-radius: 10px;
+    vertical-align: auto;
+}
+
+.editorial {
+    background-color: cornflowerblue;
+}
+
+.q1goals {
+    background-color: mediumpurple;
+}
+
+.recru {
+    background-color: mediumseagreen;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.web {
+    background-color: palevioletred;
+}
+
+.sales {
+    background-color: yellowgreen;
+}
+
